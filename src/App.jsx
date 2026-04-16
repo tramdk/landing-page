@@ -5,6 +5,11 @@ import './index.css';
 function App() {
   const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
+  const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -62,6 +67,9 @@ function App() {
               onClick={() => changeLanguage('vi')}
             >VN</button>
           </div>
+          <button className="theme-toggle" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label="Toggle theme">
+            {theme === 'dark' ? '☀️' : '🌙'}
+          </button>
           <a href="#contact" className="btn btn--ghost btn--sm">
             <span className="btn__inner">{t('nav.cta')}</span>
           </a>
