@@ -24,21 +24,21 @@ function App() {
       <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <a href="#home" className="nav__logo">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="nav__logo-icon">
-            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#paint0_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
-            <path d="M2 17L12 22L22 17" stroke="url(#paint1_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
-            <path d="M2 12L12 17L22 12" stroke="url(#paint2_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#paint0_linear)" strokeWidth="2.5" strokeLinejoin="round" />
+            <path d="M2 17L12 22L22 17" stroke="url(#paint1_linear)" strokeWidth="2.5" strokeLinejoin="round" />
+            <path d="M2 12L12 17L22 12" stroke="url(#paint2_linear)" strokeWidth="2.5" strokeLinejoin="round" />
             <defs>
               <linearGradient id="paint0_linear" x1="2" y1="7" x2="22" y2="7" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#4ade80"/>
-                <stop offset="1" stopColor="#3b82f6"/>
+                <stop stopColor="#4ade80" />
+                <stop offset="1" stopColor="#3b82f6" />
               </linearGradient>
               <linearGradient id="paint1_linear" x1="2" y1="19.5" x2="22" y2="19.5" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#4ade80"/>
-                <stop offset="1" stopColor="#3b82f6"/>
+                <stop stopColor="#4ade80" />
+                <stop offset="1" stopColor="#3b82f6" />
               </linearGradient>
               <linearGradient id="paint2_linear" x1="2" y1="14.5" x2="22" y2="14.5" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#4ade80"/>
-                <stop offset="1" stopColor="#3b82f6"/>
+                <stop stopColor="#4ade80" />
+                <stop offset="1" stopColor="#3b82f6" />
               </linearGradient>
             </defs>
           </svg>
@@ -72,7 +72,7 @@ function App() {
       <section className="hero" id="home">
         <div className="hero__video">
           <video
-            src="assets/bg-new.mp4"
+            src="assets/bg-new4.mp4"
             autoPlay loop muted playsInline preload="auto"
           />
         </div>
@@ -89,11 +89,11 @@ function App() {
                 </span>
               </div>
 
-              <h1 className="hero__name gradient-text">
-                {t('hero.name')}
+              <h1 className="hero__name hero__blur">
+                <span className="gradient-text">{t('hero.name')}</span>
               </h1>
 
-              <p className="hero__role">{t('hero.role')}</p>
+              <p className="hero__role hero__blur">{t('hero.role')}</p>
 
               <p className="hero__desc">
                 {t('hero.desc')}
