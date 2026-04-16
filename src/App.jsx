@@ -22,7 +22,28 @@ function App() {
     <div className="app-container">
       {/* NAVBAR */}
       <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
-        <a href="#home" className="nav__logo">TDK</a>
+        <a href="#home" className="nav__logo">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="nav__logo-icon">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#paint0_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="url(#paint1_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="url(#paint2_linear)" strokeWidth="2.5" strokeLinejoin="round"/>
+            <defs>
+              <linearGradient id="paint0_linear" x1="2" y1="7" x2="22" y2="7" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#4ade80"/>
+                <stop offset="1" stopColor="#3b82f6"/>
+              </linearGradient>
+              <linearGradient id="paint1_linear" x1="2" y1="19.5" x2="22" y2="19.5" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#4ade80"/>
+                <stop offset="1" stopColor="#3b82f6"/>
+              </linearGradient>
+              <linearGradient id="paint2_linear" x1="2" y1="14.5" x2="22" y2="14.5" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#4ade80"/>
+                <stop offset="1" stopColor="#3b82f6"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <span className="nav__logo-text">TRAMDK</span>
+        </a>
         <ul className="nav__links">
           <li><a href="#about" className="nav__link">{t('nav.about')}</a></li>
           <li><a href="#skills" className="nav__link">{t('nav.skills')}</a></li>
@@ -51,7 +72,7 @@ function App() {
       <section className="hero" id="home">
         <div className="hero__video">
           <video
-            src="assets/bg-hero.mp4"
+            src="assets/bg-new.mp4"
             autoPlay loop muted playsInline preload="auto"
           />
         </div>
@@ -321,7 +342,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="footer">
-        <div>TDK</div>
+        <div>TRAMDK</div>
         <div>{t('footer.copy')}</div>
       </footer>
     </div>

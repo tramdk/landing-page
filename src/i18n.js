@@ -23,7 +23,7 @@ i18n
           },
           hero: {
             badge: 'Pioneering Digital Solutions',
-            location: 'Saigon, Vietnam',
+            location: 'Ho Chi Minh City, Vietnam',
             name: 'Dang Ngoc Tram',
             role: 'Full-Stack .NET Developer',
             desc: 'Crafting high-performance enterprise ecosystems and AI-driven platforms. Transforming complex challenges into seamless digital experiences with over 5 years of mastery.',
@@ -153,7 +153,7 @@ i18n
             about: 'Tầm nhìn',
             skills: 'Năng lực lõi',
             experience: 'Hành trình',
-            projects: 'Siêu dự án',
+            projects: 'Dự án',
             contact: 'Kết nối',
             cta: 'Cùng kiến tạo'
           },
@@ -175,7 +175,7 @@ i18n
             netExp: 'Năm chuyên sâu .NET Core',
             projectsCount: 'Dự án trọng điểm',
             team: 'Lãnh đạo đội ngũ',
-            workStatus: 'Sẵn sàng cho những thử thách lớn tiếp theo',
+            workStatus: 'Sẵn sàng cho những thử thách mới',
             contact: {
               phone: 'Hotline trực tiếp',
               email: 'Email bảo mật',

@@ -203,6 +203,17 @@ body {
   color: #fff;
   text-decoration: none;
   letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__logo-icon {
+  transition: transform 0.3s var(--ease);
+}
+
+.nav__logo:hover .nav__logo-icon {
+  transform: scale(1.15) translateY(-1px);
 }
 
 .nav__links {
@@ -260,10 +271,9 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.80) 0%,
-      rgba(0, 0, 0, 0.55) 45%,
-      rgba(0, 0, 0, 0.25) 100%);
+  background: rgba(0, 0, 0, 0.6); /* Phủ thêm lớp nền đen 60% */
+  backdrop-filter: blur(6px); /* Hiệu ứng làm mờ video (Glassmorphism) */
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .hero__bottom-fade {
