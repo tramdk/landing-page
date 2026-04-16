@@ -59,7 +59,7 @@ i18n
           experience: {
             title: 'The Professional Legacy',
             company: 'Lac Viet Computing Group',
-            role: 'Lead Project Strategist',
+            role: 'Software Developer',
             duration: '2020 – PRESENT',
             items: [
               { title: 'Revolutionizing Products', desc: 'Leading at the frontlines, transforming raw requirements into market-leading features.' },
@@ -75,7 +75,7 @@ i18n
                 id: 'erp',
                 name: 'The Enterprise Command Center',
                 period: '2022 – 2025',
-                role: 'Chief Architect',
+                role: 'Full-Stack Developer',
                 team: '20 Elite Developers',
                 desc: [
                   'Orchestrated a massive-scale ERP ecosystem supporting 1M+ transactions',
@@ -88,7 +88,7 @@ i18n
                 id: 'dms',
                 name: 'Document Management System',
                 period: '2020 – 2022',
-                role: 'Migration Specialist',
+                role: 'Full-Stack Developer',
                 team: '5 Dedicated Engineers',
                 desc: [
                   'Spearheaded the complex migration of legacy archives to modern high-speed storage',
@@ -104,22 +104,22 @@ i18n
             list: [
               {
                 name: 'AI Agent: Social Dominance',
-                role: 'AI System Designer',
+                role: 'Developer',
                 desc: 'A complete content automation powerhouse that transforms how businesses handle social media. Leveraging Gemini AI for trend research and viral content generation, this agent eliminates manual toil. It features an intelligent image hunter and a multi-channel command center for 24/7 automated dominance across dozens of fanpages through a secure, multi-tenant architecture.',
               },
               {
                 name: 'The Backend Backbone (BlogApi)',
-                role: 'System Architect',
+                role: 'Developer',
                 desc: 'A masterclass in enterprise-grade API design. Built on Clean Architecture and Domain-Driven Design (DDD), it ensures zero technical debt and infinite scalability. By weaponizing CQRS with MediatR, the system achieves sub-millisecond response times under extreme load, protected by multi-layered JWT security and cloud-native media optimization.',
               },
               {
                 name: 'Luxury Digital: ChinChin Flowers',
-                role: 'Lead Interactive Developer',
+                role: 'Developer',
                 desc: 'Redefining luxury e-commerce through immersive 3D technology. Using Three.js, customers can interactively explore floral arrangements in full 3D space, blurring the line between physical and digital. It combines state-of-the-art UX with Framer Motion and an ultra-fast Vite/React foundation for a boutique experience that leaves grid-based stores in the past.',
               },
               {
                 name: 'Remote Mastery: WoL',
-                role: 'Infrastructure Engineer',
+                role: 'Developer',
                 desc: 'Shattering physical boundaries by commanding hardware states from anywhere on the planet. This tool utilizes specialized Magic Packet protocols to wake fully powered-down computers across LAN or WAN networks. Built with hyper-optimized TypeScript, it provides near-zero latency command execution and real-time infrastructure monitoring for pro-level remote operations.',
               }
             ]
@@ -139,8 +139,8 @@ i18n
             title: "Let's Build The Future",
             desc: "The next digital revolution starts with a conversation. Ready to scale your vision?",
             email: 'Direct Email',
-            website: 'Official Hub',
-            github: 'Code Matrix'
+            website: 'Official Resume',
+            github: 'Github'
           },
           footer: {
             copy: '© 2026 Dang Ngoc Tram. Excellence by design.'
@@ -194,8 +194,8 @@ i18n
           },
           experience: {
             title: 'Di sản sự nghiệp',
-            company: 'Tập đoàn Công nghệ Lạc Việt',
-            role: 'Trưởng dự án chiến lược',
+            company: 'Công ty Cổ phần Tin học Lạc Việt',
+            role: 'Full-Stack Developer',
             duration: '2020 – HIỆN TẠI',
             items: [
               { title: 'Cách mạng hóa sản phẩm', desc: 'Dẫn đầu tiền tuyến, chuyển hóa những yêu cầu thô thành các tính năng dẫn đầu thị trường.' },
@@ -211,7 +211,7 @@ i18n
                 id: 'erp',
                 name: 'Trung tâm điều hành doanh nghiệp (ERP)',
                 period: '2022 – 2025',
-                role: 'Kiến trúc sư trưởng',
+                role: 'Full-Stack Developer',
                 team: '20 lập trình viên tinh nhuệ',
                 desc: [
                   'Điều phối hệ sinh thái ERP khổng lồ xử lý hơn 1 triệu giao dịch',
@@ -224,7 +224,7 @@ i18n
                 id: 'dms',
                 name: 'Kho lưu trữ số (DMS)',
                 period: '2020 – 2022',
-                role: 'Chuyên gia chuyển đổi',
+                role: 'Full-Stack Developer',
                 team: '5 kỹ sư nòng cốt',
                 desc: [
                   'Dẫn dắt cuộc di chuyển dữ liệu phức tạp từ hệ thống cũ sang lưu trữ tốc độ cao hiện đại',
@@ -240,22 +240,22 @@ i18n
             list: [
               {
                 name: 'AI Agent: Thống trị mạng xã hội',
-                role: 'Kiến trúc sư hệ thống AI',
+                role: 'Developer',
                 desc: 'Một cỗ máy tự động hóa nội dung toàn diện, thay đổi cách doanh nghiệp vận hành trên mạng xã hội. Khai phá sức mạnh của Gemini AI để nghiên cứu xu hướng và tạo nội dung viral tự động. Hệ thống tích hợp khả năng "săn tìm" hình ảnh thông minh và trung tâm điều phối đa kênh giúp duy trì sự hiện diện 24/7 trên hàng chục fanpage với kiến trúc bảo mật đa tầng tuyệt đối.',
               },
               {
                 name: 'The Backend Backbone (BlogApi)',
-                role: 'Kiến trúc sư hệ thống',
+                role: 'Developer',
                 desc: 'Tiêu chuẩn vàng cho thiết kế API cấp doanh nghiệp. Xây dựng trên nền tảng Clean Architecture và Domain-Driven Design (DDD), đảm bảo hệ thống không có "nợ kỹ thuật" và khả năng mở rộng vô hạn. Bằng cách vũ khí hóa CQRS với MediatR, hệ thống đạt tốc độ phản hồi mili giây dưới tải trọng cực hạn, được bảo vệ bởi bảo mật JWT đa tầng.',
               },
               {
                 name: 'Luxury Digital: Tiệm hoa ChinChin',
-                role: 'Trưởng dự án tương tác',
+                role: 'Developer',
                 desc: 'Tái định nghĩa thương mại điện tử xa xỉ thông qua công nghệ 3D đắm chìm. Sử dụng Three.js, khách hàng có thể tương tác trực tiếp, ngắm nhìn hoa trong không gian 3 chiều sống động, xóa nhòa ranh giới giữa thực và ảo. Dự án kết hợp UX đẳng cấp với Framer Motion và nền tảng Vite/React siêu tốc, tạo ra một không gian showroom số sang trọng vượt bậc.',
               },
               {
                 name: 'Remote Mastery: WoL',
-                role: 'Kỹ sư hạ tầng',
+                role: 'Developer',
                 desc: 'Phá vỡ mọi giới hạn vật lý bằng cách làm chủ trạng thái phần cứng từ bất cứ đâu trên hành tinh. Công cụ sử dụng các giao thức Magic Packet đặc biệt để đánh thức những máy tính đang tắt hoàn toàn qua mạng LAN hoặc WAN. Xây dựng trên nền tảng TypeScript tối ưu cực hạn, dự án cung cấp khả năng thực thi lệnh với độ trễ gần như bằng không.',
               }
             ]
@@ -274,9 +274,9 @@ i18n
           contact: {
             title: "Cùng xây dựng tương lai",
             desc: "Cuộc cách mạng số tiếp theo bắt đầu bằng một cuộc trò chuyện. Bạn đã sẵn sàng hiện thực hóa tầm nhìn của mình?",
-            email: 'Liên hệ trực tiếp',
-            website: 'Trung tâm chính thức',
-            github: 'Ma trận mã nguồn'
+            email: 'Email',
+            website: 'Officical Resume',
+            github: 'Github'
           },
           footer: {
             copy: '© 2026 Đặng Ngọc Trầm. Đẳng cấp từ thiết kế.'
