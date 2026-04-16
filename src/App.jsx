@@ -50,9 +50,9 @@ function App() {
       {/* HERO */}
       <section className="hero" id="home">
         <div className="hero__video">
-          <video 
-            src="assets/7731103174071.mp4" 
-            autoPlay loop muted playsInline preload="auto" 
+          <video
+            src="assets/bg-hero.mp4"
+            autoPlay loop muted playsInline preload="auto"
           />
         </div>
         <div className="hero__bottom-fade"></div>
