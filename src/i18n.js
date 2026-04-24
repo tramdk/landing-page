@@ -14,74 +14,74 @@ i18n
       en: {
         translation: {
           nav: {
-            about: 'Vision',
-            skills: 'Expertise',
-            experience: 'Journey',
-            projects: 'Major Works',
-            contact: 'Connect',
-            cta: 'Let\'s Create'
+            about: 'About',
+            skills: 'Skills',
+            experience: 'Experience',
+            projects: 'Projects',
+            contact: 'Contact',
+            cta: 'Let\'s Connect'
           },
           hero: {
-            badge: 'Pioneering Digital Solutions',
+            badge: 'Software Developer',
             location: 'Ho Chi Minh City, Vietnam',
             name: 'Dang Ngoc Tram',
             role: 'Full-Stack .NET Developer',
-            desc: 'Crafting high-performance enterprise ecosystems and AI-driven platforms. Transforming complex challenges into seamless digital experiences with over 5 years of mastery.',
-            viewProjects: 'Discover My Work',
-            contactMe: 'Hire Perfection',
-            scroll: 'The Journey'
+            desc: 'Experienced in building scalable enterprise applications and integrating AI solutions. Dedicated to creating efficient and user-friendly digital experiences with over 5 years of professional experience.',
+            viewProjects: 'View Projects',
+            contactMe: 'Contact Me',
+            scroll: 'Scroll Down'
           },
           about: {
-            title: 'The Visionary',
-            bio: 'Driven by precision and innovation, I have spent over <strong>half a decade</strong> architecting the digital backbone of modern enterprises. With a deep mastery of <strong>.NET Core</strong>, I don\'t just write code; I build legacies.',
-            bio2: 'I specialize in shattering performance ceilings and integrating cutting-edge AI to redefine what’s possible in enterprise software. My mission is to turn every complex requirement into a high-performance masterpiece.',
-            exp: 'Years of Mastery',
-            netExp: 'Years of Deep Dev',
-            projectsCount: 'Major Deployments',
-            team: 'Leaders Led',
-            workStatus: 'Ready for the next big thing',
+            title: 'About Me',
+            bio: 'With over 5 years of experience in software development, I specialize in building robust backend systems and modern frontend interfaces. My core expertise lies in the <strong>.NET Core</strong> ecosystem, where I focus on delivering scalable and maintainable solutions.',
+            bio2: 'I am passionate about optimizing application performance and integrating AI features to solve complex business problems. I enjoy working in collaborative environments to bring ideas to life.',
+            exp: 'Years of Experience',
+            netExp: 'Years in .NET',
+            projectsCount: 'Major Projects',
+            team: 'Team Members Led',
+            workStatus: 'Open to new opportunities',
             contact: {
-              phone: 'Direct Line',
-              email: 'Secure Email',
-              address: 'Headquarters',
+              phone: 'Phone',
+              email: 'Email',
+              address: 'Address',
               addressVal: 'Phu Nhuan, HCM City'
             }
           },
           skills: {
-            title: 'Core Powers',
-            fe: { title: 'Seamless UI', desc: 'Crafting immersive, lightning-fast interfaces that captivate users at first click.' },
-            be: { title: 'Robust Backbone', desc: 'Engineering bulletproof, hyper-scalable infrastructures that never fail under pressure.' },
-            db: { title: 'Data Mastery', desc: 'Weaponizing data with elite-level optimization for instant, large-scale intel.' },
-            perf: { title: 'Peak Performance', desc: 'Eliminating every millisecond of lag. I make slow systems legendary.' },
-            arch: { title: 'Strategic Arch', desc: 'Designing future-proof systems where every line of code serves a purpose.' },
-            ai: { title: 'AI Integration', desc: 'Commanding Artificial Intelligence to automate, predict, and dominate.' }
+            title: 'Technical Skills',
+            fe: { title: 'Frontend Development', desc: 'Building responsive and interactive user interfaces using modern JavaScript frameworks.' },
+            be: { title: 'Backend Development', desc: 'Designing and implementing secure, scalable RESTful APIs and microservices.' },
+            db: { title: 'Database Management', desc: 'Designing efficient database schemas and optimizing queries for performance.' },
+            perf: { title: 'Performance Optimization', desc: 'Identifying bottlenecks and improving system responsiveness.' },
+            arch: { title: 'Software Architecture', desc: 'Applying design patterns and clean architecture principles for maintainable code.' },
+            ai: { title: 'AI Integration', desc: 'Incorporating AI and machine learning capabilities into software solutions.' }
           },
           experience: {
-            title: 'The Professional Legacy',
-            company: 'Lac Viet Computing Group',
+            title: 'Work Experience',
+            company: 'Lac Viet Computing Corp',
             role: 'Software Developer',
             duration: '2020 – PRESENT',
             items: [
-              { title: 'Revolutionizing Products', desc: 'Leading at the frontlines, transforming raw requirements into market-leading features.' },
-              { title: 'System Optimization Elite', desc: 'Rescuing massive Big Data systems from performance death, smashing bottlenecks.' },
-              { title: 'AI & Next-Gen Modules', desc: 'Pioneering the integration of AI analytics that provide unmatched business insights.' },
-              { title: 'Architectural Excellence', desc: 'Building the core foundations that support entire enterprise ecosystems.' }
+              { title: 'Product Development', desc: 'Collaborated with cross-functional teams to develop and deploy new features based on business requirements.' },
+              { title: 'System Optimization', desc: 'Improved system performance by optimizing database queries and refactoring legacy code.' },
+              { title: 'AI Integration', desc: 'Implemented AI-driven analytics modules to enhance data visualization and business insights.' },
+              { title: 'System Architecture', desc: 'Contributed to the design and development of core application infrastructure.' }
             ]
           },
           projects: {
-            title: 'Industry Powerhouses',
+            title: 'Professional Projects',
             list: [
               {
                 id: 'erp',
-                name: 'The Enterprise Command Center',
+                name: 'Enterprise Resource Planning (ERP)',
                 period: '2022 – 2025',
                 role: 'Full-Stack Developer',
-                team: '20 Elite Developers',
+                team: '20 Developers',
                 desc: [
-                  'Orchestrated a massive-scale ERP ecosystem supporting 1M+ transactions',
-                  'Deployed ultra-fast real-time synchronization using advanced SignalR patterns',
-                  'Engineered AI ingestion pipelines for predictive business intelligence',
-                  'Maximized system throughput with high-tier database tuning'
+                  'Developed and maintained core modules for a large-scale ERP system',
+                  'Implemented real-time data synchronization using SignalR',
+                  'Integrated data analytics pipelines to support business intelligence',
+                  'Optimized database performance to handle high transaction volumes'
                 ]
               },
               {
@@ -89,197 +89,197 @@ i18n
                 name: 'Document Management System',
                 period: '2020 – 2022',
                 role: 'Full-Stack Developer',
-                team: '5 Dedicated Engineers',
+                team: '5 Engineers',
                 desc: [
-                  'Spearheaded the complex migration of legacy archives to modern high-speed storage',
-                  'Achieved sub-second retrieval speeds on multi-terabyte document databases',
-                  'Redefined User Experience for massive administrative workflows',
-                  'Integrated elite-level search engines for instant data discovery'
+                  'Participated in migrating legacy data to a modern storage solution',
+                  'Improved document retrieval speed for large-scale databases',
+                  'Developed user-friendly interfaces for document administration workflows',
+                  'Integrated search functionalities for efficient data retrieval'
                 ]
               }
             ]
           },
           sideProjects: {
-            title: 'The Innovation Lab',
+            title: 'Personal Projects',
             list: [
               {
-                name: 'AI Agent: Social Dominance',
+                name: 'Social Media Management Agent',
                 role: 'Developer',
-                desc: 'A complete content automation powerhouse that transforms how businesses handle social media. Leveraging Gemini AI for trend research and viral content generation, this agent eliminates manual toil. It features an intelligent image hunter and a multi-channel command center for 24/7 automated dominance across dozens of fanpages through a secure, multi-tenant architecture.',
+                desc: 'An automated content management tool utilizing Gemini AI for generating and scheduling social media posts. Features include trend analysis, image processing, and multi-channel posting capabilities across multiple platforms.',
               },
               {
-                name: 'The Backend Backbone (BlogApi)',
+                name: 'Blog API Platform',
                 role: 'Developer',
-                desc: 'A masterclass in enterprise-grade API design. Built on Clean Architecture and Domain-Driven Design (DDD), it ensures zero technical debt and infinite scalability. By weaponizing CQRS with MediatR, the system achieves sub-millisecond response times under extreme load, protected by multi-layered JWT security and cloud-native media optimization.',
+                desc: 'A robust RESTful API built with Clean Architecture and Domain-Driven Design principles. Implements CQRS with MediatR for scalable request handling, and features JWT authentication and media optimization.',
               },
               {
-                name: 'Luxury Digital: ChinChin Flowers',
+                name: 'ChinChin Flowers Digital Store',
                 role: 'Developer',
-                desc: 'Redefining luxury e-commerce through immersive 3D technology. Using Three.js, customers can interactively explore floral arrangements in full 3D space, blurring the line between physical and digital. It combines state-of-the-art UX with Framer Motion and an ultra-fast Vite/React foundation for a boutique experience that leaves grid-based stores in the past.',
+                desc: 'An interactive e-commerce platform featuring 3D floral arrangements using Three.js. Built with Vite and React, it incorporates Framer Motion for smooth animations and an engaging user experience.',
               },
               {
-                name: 'Remote Mastery: WoL',
-                role: 'Developer',
-                desc: 'Shattering physical boundaries by commanding hardware states from anywhere on the planet. This tool utilizes specialized Magic Packet protocols to wake fully powered-down computers across LAN or WAN networks. Built with hyper-optimized TypeScript, it provides near-zero latency command execution and real-time infrastructure monitoring for pro-level remote operations.',
+                name: 'Nông Y AI (Agri-AI)',
+                role: 'Mobile Developer',
+                desc: 'A modern mobile application designed to help farmers quickly and accurately diagnose plant diseases. It integrates Gemini AI for image recognition, text-to-speech, and hands-free voice calls, optimizing crop protection and agricultural productivity. Built with TypeScript and Capacitor.',
               }
             ]
           },
           education: {
-            title: 'Academic Foundation',
-            school: 'Ho Chi Minh University of Technology (HUTECH)',
+            title: 'Education',
+            school: 'Ho Chi Minh City University of Technology (HUTECH)',
             period: '2015 – 2020',
             dept: 'Information Technology',
-            degree: 'Engineer of Technology'
+            degree: 'Bachelor of Engineering'
           },
           interests: {
-            title: 'Fueling The Mind',
-            items: ['🚀 Tech Frontiers', '🎵 High-Fidelity Audio', '🎮 Tactical Gaming']
+            title: 'Interests',
+            items: ['Technology Trends', 'Music & Audio', 'Strategy Games']
           },
           contact: {
-            title: "Let's Build The Future",
-            desc: "The next digital revolution starts with a conversation. Ready to scale your vision?",
-            email: 'Direct Email',
-            website: 'Official Resume',
+            title: "Get In Touch",
+            desc: "I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+            email: 'Email',
+            website: 'Resume',
             github: 'Github'
           },
           footer: {
-            copy: '© 2026 Dang Ngoc Tram. Excellence by design.'
+            copy: '© 2026 Dang Ngoc Tram.'
           }
         }
       },
       vi: {
         translation: {
           nav: {
-            about: 'Tầm nhìn',
-            skills: 'Năng lực lõi',
-            experience: 'Hành trình',
+            about: 'Giới thiệu',
+            skills: 'Kỹ năng',
+            experience: 'Kinh nghiệm',
             projects: 'Dự án',
-            contact: 'Kết nối',
-            cta: 'Cùng kiến tạo'
+            contact: 'Liên hệ',
+            cta: 'Kết nối'
           },
           hero: {
-            badge: 'Tiên phong giải pháp số',
+            badge: 'Lập trình viên phần mềm',
             location: 'TP. Hồ Chí Minh',
             name: 'Đặng Ngọc Trầm',
             role: 'Full-Stack .NET Developer',
-            desc: 'Xây dựng hệ sinh thái doanh nghiệp hiệu năng cao và nền tảng tích hợp AI. Chuyển hóa thách thức phức tạp thành trải nghiệm số mượt mà với hơn 5 năm kinh nghiệm đỉnh cao.',
-            viewProjects: 'Khám phá thành tựu',
-            contactMe: 'Kết nối ngay',
-            scroll: 'Hành trình số'
+            desc: 'Có kinh nghiệm xây dựng các ứng dụng doanh nghiệp và tích hợp giải pháp AI. Mong muốn tạo ra các sản phẩm số hiệu quả và thân thiện với người dùng với hơn 5 năm kinh nghiệm làm việc.',
+            viewProjects: 'Xem dự án',
+            contactMe: 'Liên hệ',
+            scroll: 'Kéo xuống'
           },
           about: {
-            title: 'Bậc thầy công nghệ',
-            bio: 'Được thúc đẩy bởi sự chính xác và đổi mới, tôi đã dành hơn <strong>nửa thập kỷ</strong> để thiết kế "xương sống" số cho các doanh nghiệp hiện đại. Với sự am hiểu sâu sắc về <strong>.NET Core</strong>, tôi không chỉ viết code; tôi tạo ra di sản.',
-            bio2: 'Tôi chuyên về phá vỡ mọi giới hạn hiệu năng và tích hợp AI tiên tiến để tái định nghĩa khả năng của phần mềm doanh nghiệp. Sứ mệnh của tôi là biến mọi yêu cầu phức tạp thành một kiệt tác hiệu quả.',
-            exp: 'Năm khẳng định vị thế',
-            netExp: 'Năm chuyên sâu .NET Core',
-            projectsCount: 'Dự án trọng điểm',
-            team: 'Lãnh đạo đội ngũ',
-            workStatus: 'Sẵn sàng cho những thử thách mới',
+            title: 'Về tôi',
+            bio: 'Với hơn 5 năm kinh nghiệm trong lĩnh vực phát triển phần mềm, tôi tập trung vào việc xây dựng hệ thống backend vững chắc và giao diện frontend hiện đại. Chuyên môn chính của tôi là hệ sinh thái <strong>.NET Core</strong>, nơi tôi thiết kế các giải pháp có tính mở rộng và dễ bảo trì.',
+            bio2: 'Tôi quan tâm đến việc tối ưu hóa hiệu năng ứng dụng và tích hợp các tính năng AI để giải quyết các bài toán kinh doanh. Tôi thích làm việc trong môi trường hợp tác để biến các ý tưởng thành sản phẩm thực tế.',
+            exp: 'Năm kinh nghiệm',
+            netExp: 'Năm với .NET',
+            projectsCount: 'Dự án lớn',
+            team: 'Quản lý nhóm',
+            workStatus: 'Sẵn sàng đón nhận cơ hội mới',
             contact: {
-              phone: 'Hotline trực tiếp',
-              email: 'Email bảo mật',
-              address: 'Trụ sở',
+              phone: 'Điện thoại',
+              email: 'Email',
+              address: 'Địa chỉ',
               addressVal: 'Quận Phú Nhuận, TP. HCM'
             }
           },
           skills: {
-            title: 'Sức mạnh cốt lõi',
-            fe: { title: 'Giao diện đỉnh cao', desc: 'Tạo ra những trải nghiệm đắm chìm, tốc độ ánh sáng, chinh phục người dùng ngay từ cái chạm đầu tiên.' },
-            be: { title: 'Hệ thống vững chãi', desc: 'Thiết kế hạ tầng không thể phá vỡ, khả năng mở rộng cực hạn, bất chấp mọi áp lực hệ thống.' },
-            db: { title: 'Bậc thầy dữ liệu', desc: 'Vũ khí hóa dữ liệu với khả năng tối ưu hóa cấp độ cao nhất cho các truy vấn quy mô lớn.' },
-            perf: { title: 'Hiệu năng cực hạn', desc: 'Xóa bỏ mọi mili giây trễ. Tôi biến những hệ thống chậm chạp thành huyền thoại về tốc độ.' },
-            arch: { title: 'Kiến trúc chiến lược', desc: 'Thiết kế những hệ thống bền vững theo thời gian, nơi mỗi dòng code đều mang một sứ mệnh.' },
-            ai: { title: 'Tích hợp AI', desc: 'Làm chủ Trí tuệ nhân tạo để tự động hóa, dự báo và dẫn đầu xu thế thị trường.' }
+            title: 'Kỹ năng chuyên môn',
+            fe: { title: 'Frontend', desc: 'Xây dựng giao diện người dùng tương tác và đáp ứng trên nhiều thiết bị bằng các framework JavaScript hiện đại.' },
+            be: { title: 'Backend', desc: 'Thiết kế và phát triển các RESTful API và microservices an toàn, có khả năng mở rộng.' },
+            db: { title: 'Cơ sở dữ liệu', desc: 'Thiết kế lược đồ cơ sở dữ liệu và tối ưu hóa truy vấn để cải thiện hiệu suất.' },
+            perf: { title: 'Tối ưu hiệu năng', desc: 'Phân tích điểm nghẽn và cải thiện tốc độ phản hồi của hệ thống.' },
+            arch: { title: 'Kiến trúc phần mềm', desc: 'Áp dụng design patterns và clean architecture để code dễ bảo trì.' },
+            ai: { title: 'Tích hợp AI', desc: 'Ứng dụng các khả năng của AI và machine learning vào sản phẩm phần mềm.' }
           },
           experience: {
-            title: 'Di sản sự nghiệp',
+            title: 'Kinh nghiệm làm việc',
             company: 'Công ty Cổ phần Tin học Lạc Việt',
-            role: 'Full-Stack Developer',
+            role: 'Software Developer',
             duration: '2020 – HIỆN TẠI',
             items: [
-              { title: 'Cách mạng hóa sản phẩm', desc: 'Dẫn đầu tiền tuyến, chuyển hóa những yêu cầu thô thành các tính năng dẫn đầu thị trường.' },
-              { title: 'Biệt đội tối ưu hệ thống', desc: 'Giải cứu các hệ thống Big Data khổng lồ khỏi sự sụp đổ về hiệu năng.' },
-              { title: 'Tích hợp AI & Module thế hệ mới', desc: 'Tiên phong đưa phân tích AI vào doanh nghiệp, cung cấp những hiểu biết kinh doanh vô giá.' },
-              { title: 'Kiến tạo nền tảng vững chắc', desc: 'Xây dựng nền móng cốt lõi chống đỡ cho toàn bộ hệ sinh thái của doanh nghiệp.' }
+              { title: 'Phát triển sản phẩm', desc: 'Phối hợp với các nhóm để phát triển và triển khai tính năng mới theo yêu cầu nghiệp vụ.' },
+              { title: 'Tối ưu hệ thống', desc: 'Cải thiện hiệu năng hệ thống thông qua việc tối ưu câu truy vấn cơ sở dữ liệu và tái cấu trúc mã nguồn.' },
+              { title: 'Tích hợp AI', desc: 'Triển khai các module phân tích sử dụng AI để nâng cao khả năng trực quan hóa dữ liệu.' },
+              { title: 'Kiến trúc hệ thống', desc: 'Tham gia thiết kế và xây dựng hạ tầng cốt lõi cho các ứng dụng.' }
             ]
           },
           projects: {
-            title: 'Siêu dự án doanh nghiệp',
+            title: 'Dự án nổi bật',
             list: [
               {
                 id: 'erp',
-                name: 'Trung tâm điều hành doanh nghiệp (ERP)',
+                name: 'Hệ thống Quản trị Doanh nghiệp (ERP)',
                 period: '2022 – 2025',
                 role: 'Full-Stack Developer',
-                team: '20 lập trình viên tinh nhuệ',
+                team: '20 Lập trình viên',
                 desc: [
-                  'Điều phối hệ sinh thái ERP khổng lồ xử lý hơn 1 triệu giao dịch',
-                  'Triển khai đồng bộ hóa thời gian thực tốc độ cao với các mô hình SignalR tiên tiến',
-                  'Xây dựng pipeline dữ liệu AI giúp dự báo thông minh trong kinh doanh',
-                  'Tối ưu hóa khả năng xử lý của hệ thống thông qua tinh chỉnh DB cấp cao'
+                  'Phát triển và bảo trì các module cốt lõi cho hệ thống ERP quy mô lớn',
+                  'Triển khai đồng bộ dữ liệu theo thời gian thực sử dụng SignalR',
+                  'Tích hợp luồng dữ liệu phân tích để hỗ trợ báo cáo thông minh',
+                  'Tối ưu hiệu năng cơ sở dữ liệu để đáp ứng lượng giao dịch lớn'
                 ]
               },
               {
                 id: 'dms',
-                name: 'Kho lưu trữ số (DMS)',
+                name: 'Hệ thống Quản lý Tài liệu (DMS)',
                 period: '2020 – 2022',
                 role: 'Full-Stack Developer',
-                team: '5 kỹ sư nòng cốt',
+                team: '5 Kỹ sư',
                 desc: [
-                  'Dẫn dắt cuộc di chuyển dữ liệu phức tạp từ hệ thống cũ sang lưu trữ tốc độ cao hiện đại',
-                  'Đạt tốc độ truy xuất dưới 1 giây trên các kho tài liệu quy mô nhiều Terabyte',
-                  'Tái định nghĩa trải nghiệm người dùng cho các quy trình quản lý khổng lồ',
-                  'Tích hợp các bộ máy tìm kiếm ưu việt giúp khám phá dữ liệu tức thì'
+                  'Tham gia chuyển đổi dữ liệu từ hệ thống cũ sang nền tảng lưu trữ mới',
+                  'Cải thiện tốc độ truy xuất tài liệu cho các cơ sở dữ liệu lớn',
+                  'Phát triển giao diện quản lý tài liệu thân thiện với người dùng',
+                  'Tích hợp tính năng tìm kiếm giúp tra cứu dữ liệu hiệu quả'
                 ]
               }
             ]
           },
           sideProjects: {
-            title: 'Phòng thí nghiệm đổi mới',
+            title: 'Dự án cá nhân',
             list: [
               {
-                name: 'AI Agent: Thống trị mạng xã hội',
+                name: 'Công cụ Quản lý Mạng xã hội',
                 role: 'Developer',
-                desc: 'Một cỗ máy tự động hóa nội dung toàn diện, thay đổi cách doanh nghiệp vận hành trên mạng xã hội. Khai phá sức mạnh của Gemini AI để nghiên cứu xu hướng và tạo nội dung viral tự động. Hệ thống tích hợp khả năng "săn tìm" hình ảnh thông minh và trung tâm điều phối đa kênh giúp duy trì sự hiện diện 24/7 trên hàng chục fanpage với kiến trúc bảo mật đa tầng tuyệt đối.',
+                desc: 'Hệ thống tự động hóa nội dung sử dụng Gemini AI để tạo và lên lịch bài viết trên mạng xã hội. Các tính năng bao gồm phân tích xu hướng, xử lý hình ảnh và đăng bài trên nhiều nền tảng.',
               },
               {
-                name: 'The Backend Backbone (BlogApi)',
+                name: 'Nền tảng Blog API',
                 role: 'Developer',
-                desc: 'Tiêu chuẩn vàng cho thiết kế API cấp doanh nghiệp. Xây dựng trên nền tảng Clean Architecture và Domain-Driven Design (DDD), đảm bảo hệ thống không có "nợ kỹ thuật" và khả năng mở rộng vô hạn. Bằng cách vũ khí hóa CQRS với MediatR, hệ thống đạt tốc độ phản hồi mili giây dưới tải trọng cực hạn, được bảo vệ bởi bảo mật JWT đa tầng.',
+                desc: 'RESTful API được xây dựng theo Clean Architecture và Domain-Driven Design. Áp dụng CQRS với MediatR để xử lý yêu cầu mở rộng, kèm theo tính năng xác thực JWT và tối ưu hình ảnh.',
               },
               {
-                name: 'Luxury Digital: Tiệm hoa ChinChin',
+                name: 'Cửa hàng trực tuyến ChinChin Flowers',
                 role: 'Developer',
-                desc: 'Tái định nghĩa thương mại điện tử xa xỉ thông qua công nghệ 3D đắm chìm. Sử dụng Three.js, khách hàng có thể tương tác trực tiếp, ngắm nhìn hoa trong không gian 3 chiều sống động, xóa nhòa ranh giới giữa thực và ảo. Dự án kết hợp UX đẳng cấp với Framer Motion và nền tảng Vite/React siêu tốc, tạo ra một không gian showroom số sang trọng vượt bậc.',
+                desc: 'Nền tảng thương mại điện tử với trải nghiệm xem hoa 3D tương tác sử dụng Three.js. Được xây dựng với Vite và React, kết hợp Framer Motion để tạo ra các hiệu ứng chuyển động mượt mà.',
               },
               {
-                name: 'Remote Mastery: WoL',
-                role: 'Developer',
-                desc: 'Phá vỡ mọi giới hạn vật lý bằng cách làm chủ trạng thái phần cứng từ bất cứ đâu trên hành tinh. Công cụ sử dụng các giao thức Magic Packet đặc biệt để đánh thức những máy tính đang tắt hoàn toàn qua mạng LAN hoặc WAN. Xây dựng trên nền tảng TypeScript tối ưu cực hạn, dự án cung cấp khả năng thực thi lệnh với độ trễ gần như bằng không.',
+                name: 'Nông Y AI (Agri-AI)',
+                role: 'Mobile Developer',
+                desc: 'Ứng dụng di động hỗ trợ chẩn đoán sâu bệnh trên cây trồng bằng AI. Tích hợp sức mạnh của Gemini AI để phân tích hình ảnh, đàm thoại trực tiếp (Voice Call) và nhắn tin. Cung cấp cẩm nang kỹ thuật và thời tiết thực tế, giúp tối ưu hóa quy trình canh tác. Xây dựng bằng TypeScript và Capacitor.',
               }
             ]
           },
           education: {
-            title: 'Nền tảng học thuật',
-            school: 'Đại học Công nghệ Thành Phố Hồ Chí Minh (HUTECH)',
+            title: 'Học vấn',
+            school: 'Đại học Công nghệ TP.HCM (HUTECH)',
             period: '2015 – 2020',
             dept: 'Công nghệ thông tin',
             degree: 'Kỹ sư CNTT'
           },
           interests: {
-            title: 'Nuôi dưỡng tâm hồn',
-            items: ['🚀 Công nghệ tương lai', '🎵 Âm thanh Hi-Fi', '🎮 Chiến thuật đỉnh cao']
+            title: 'Sở thích',
+            items: ['Công nghệ mới', 'Âm nhạc', 'Game chiến thuật']
           },
           contact: {
-            title: "Cùng xây dựng tương lai",
-            desc: "Cuộc cách mạng số tiếp theo bắt đầu bằng một cuộc trò chuyện. Bạn đã sẵn sàng hiện thực hóa tầm nhìn của mình?",
+            title: "Liên hệ",
+            desc: "Tôi luôn sẵn sàng trao đổi về các dự án mới, ý tưởng sáng tạo hoặc cơ hội hợp tác cùng bạn.",
             email: 'Email',
-            website: 'Officical Resume',
+            website: 'Resume',
             github: 'Github'
           },
           footer: {
-            copy: '© 2026 Đặng Ngọc Trầm. Đẳng cấp từ thiết kế.'
+            copy: '© 2026 Đặng Ngọc Trầm.'
           }
         }
       }
