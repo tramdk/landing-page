@@ -5,7 +5,7 @@ import './index.css';
 function App() {
   const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -272,7 +272,7 @@ function App() {
               <div className="proj-top">
                 <div className="proj-name">{p.name}</div>
               </div>
-              <div className="proj-role-t" style={{ fontSize: '11px', fontWeight: '600', color: '#fff', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '14px' }}>
+              <div className="proj-role-t" style={{ fontSize: '11px', fontWeight: '600', color: 'var(--c-dim)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '14px' }}>
                 {p.role}
               </div>
               <p className="proj-desc-text" style={{ fontSize: '14px', color: 'var(--c-dim)', lineHeight: '1.8', margin: 0 }}>
