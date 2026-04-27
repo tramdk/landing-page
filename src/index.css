@@ -418,8 +418,46 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+.hero__actions .btn {
+  transform-style: preserve-3d;
+  transition: transform 0.3s var(--ease);
+}
+
+.hero__actions .btn:active .btn__inner {
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero__actions .btn--ghost .btn__inner {
+  background: rgba(var(--c-rgb-base), 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.05);
+  color: var(--c-text);
+}
+
+.hero__actions .btn--ghost:hover .btn__inner {
+  background: rgba(var(--c-rgb-base), 0.25);
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px) translateZ(10px);
+}
+
+.hero__actions .btn--solid .btn__inner {
+  background: linear-gradient(135deg, var(--gradient-text-start) 0%, var(--gradient-text-end) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.hero__actions .btn--solid:hover .btn__inner {
+  box-shadow: 0 12px 28px rgba(59, 130, 246, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.4);
+  transform: translateY(-3px) translateZ(10px);
 }
 
 .hero__scroll {
@@ -955,6 +993,33 @@ body {
 }
 
 @media (max-width: 640px) {
+  .nav {
+    padding: 0 12px;
+  }
+  
+  .nav__right {
+    gap: 8px;
+  }
+  
+  .lang-switcher {
+    margin-left: 0;
+  }
+  
+  .lang-btn {
+    padding: 4px 6px;
+    font-size: 11px;
+  }
+  
+  .theme-toggle {
+    font-size: 16px;
+    padding: 0;
+  }
+  
+  .btn--sm .btn__inner {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+
   .nav__links {
     display: none;
   }
@@ -972,6 +1037,15 @@ body {
   .contact-links {
     flex-direction: column;
     align-items: stretch;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav__logo-text {
+    display: none;
+  }
+  .nav__right {
+    gap: 6px;
   }
 }
 
