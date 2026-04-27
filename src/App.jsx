@@ -5,7 +5,7 @@ import './index.css';
 function App() {
   const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -80,7 +80,7 @@ function App() {
       <section className="hero" id="home">
         <div className="hero__video">
           <video
-            src="assets/bg-new4.mp4"
+            src="assets/bg-hero.mp4"
             autoPlay loop muted playsInline preload="auto"
           />
         </div>
