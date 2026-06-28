@@ -30,7 +30,7 @@
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(39, 39, 42, 0.5);
 
   --bg-grid: linear-gradient(to right, rgba(39, 39, 42, 0.4) 1px, transparent 1px),
-             linear-gradient(to bottom, rgba(39, 39, 42, 0.4) 1px, transparent 1px);
+    linear-gradient(to bottom, rgba(39, 39, 42, 0.4) 1px, transparent 1px);
   --font-heading: var(--font-display);
 
   --glass-border: rgba(255, 255, 255, 0.06);
@@ -59,7 +59,7 @@
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(212, 212, 216, 0.5);
 
   --bg-grid: linear-gradient(to right, rgba(212, 212, 216, 0.4) 1px, transparent 1px),
-             linear-gradient(to bottom, rgba(212, 212, 216, 0.4) 1px, transparent 1px);
+    linear-gradient(to bottom, rgba(212, 212, 216, 0.4) 1px, transparent 1px);
 
   --glass-border: rgba(0, 0, 0, 0.08);
   --glass-inner-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -72,7 +72,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ─── Smooth Theme Transitions ─── */
@@ -93,22 +93,25 @@ h3,
 p,
 svg {
   transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              border-color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-              box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    border-color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    color 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ─── Custom Scrollbar ─── */
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--color-border);
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-accent);
 }
@@ -117,6 +120,7 @@ svg {
 .perspective-1000 {
   perspective: 1000px;
 }
+
 .transform-style-3d {
   transform-style: preserve-3d;
 }
@@ -127,6 +131,7 @@ svg {
   display: inline-block;
   will-change: transform, opacity;
 }
+
 .hero-word,
 .summary-word {
   display: inline-block;
@@ -142,9 +147,17 @@ svg {
 
 /* ─── Scroll Bounce Arrow ─── */
 @keyframes scroll-bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(6px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(6px);
+  }
 }
+
 .scroll-bounce-arrow {
   animation: scroll-bounce 2s ease-in-out infinite;
 }
@@ -156,13 +169,14 @@ svg {
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-inner-shadow), var(--shadow-card);
 }
+
 .glass-panel-strong {
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-inner-shadow),
-              inset 0 -1px 0 rgba(0, 0, 0, 0.05),
-              var(--shadow-elevated);
+    inset 0 -1px 0 rgba(0, 0, 0, 0.05),
+    var(--shadow-elevated);
 }
 
 /* ─── Spotlight Border Card ─── */
@@ -170,17 +184,16 @@ svg {
   position: relative;
   overflow: hidden;
 }
+
 .spotlight-card::before {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: radial-gradient(
-    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    var(--color-accent),
-    transparent 40%
-  );
+  background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      var(--color-accent),
+      transparent 40%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -188,47 +201,86 @@ svg {
   transition: opacity 0.4s ease;
   pointer-events: none;
 }
+
 .spotlight-card:hover::before {
   opacity: 0.5;
 }
 
 /* ─── Kinetic Marquee ─── */
 @keyframes marquee-scroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
+
 .marquee-track {
   display: flex;
   width: max-content;
   animation: marquee-scroll 30s linear infinite;
 }
+
 .marquee-track:hover {
   animation-play-state: paused;
 }
 
 /* ─── Mesh Gradient Background ─── */
 @keyframes mesh-float-1 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(30px, -50px) scale(1.1); }
-  66% { transform: translate(-20px, 20px) scale(0.9); }
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
 }
+
 @keyframes mesh-float-2 {
-  0%, 100% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(-40px, 30px) scale(0.95); }
-  66% { transform: translate(20px, -40px) scale(1.05); }
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(-40px, 30px) scale(0.95);
+  }
+
+  66% {
+    transform: translate(20px, -40px) scale(1.05);
+  }
 }
+
 .mesh-blob-1 {
   animation: mesh-float-1 20s ease-in-out infinite;
 }
+
 .mesh-blob-2 {
   animation: mesh-float-2 25s ease-in-out infinite;
 }
 
 /* ─── Text Scramble Cursor ─── */
 @keyframes blink-caret {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
+
 .typing-cursor::after {
   content: '|';
   color: var(--color-accent);
@@ -245,6 +297,7 @@ svg {
   background-size: 0% 1px;
   transition: background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
+
 .link-underline:hover {
   background-size: 100% 1px;
 }
@@ -253,7 +306,7 @@ svg {
 .sticky-card {
   position: sticky;
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
-              filter 0.3s ease;
+    filter 0.3s ease;
 }
 
 /* ─── Selection ─── */
@@ -312,3 +365,158 @@ svg {
   opacity: 0.05;
 }
 
+/* ─── Avatar Video — Floating Glass Card ─── */
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.avatar-video-card {
+  position: relative;
+  border-radius: 2.5rem;
+  padding: 6px;
+  background: conic-gradient(from var(--border-angle),
+      transparent 25%,
+      var(--color-accent) 50%,
+      transparent 75%);
+  animation: avatar-border-spin 4s linear infinite;
+  will-change: transform;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.avatar-video-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow:
+    0 24px 48px -12px rgba(6, 182, 212, 0.15),
+    0 0 0 1px var(--color-accent);
+}
+
+.theme-light .avatar-video-card:hover {
+  box-shadow:
+    0 24px 48px -12px rgba(8, 145, 178, 0.12),
+    0 0 0 1px var(--color-accent);
+}
+
+@keyframes avatar-border-spin {
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+.avatar-video-inner {
+  position: relative;
+  border-radius: calc(2.5rem - 3px);
+  overflow: hidden;
+  background: var(--color-surface);
+  /* Liquid glass refraction */
+  border: 1px solid var(--glass-border);
+  box-shadow:
+    var(--glass-inner-shadow),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.05),
+    var(--shadow-elevated);
+}
+
+.avatar-video-inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.04) 100%);
+}
+
+.avatar-video-inner::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(to top,
+      var(--color-surface) 0%,
+      transparent 100%);
+  opacity: 0.6;
+}
+
+.avatar-video-inner video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+/* Ambient glow behind the card */
+.avatar-video-glow {
+  position: absolute;
+  inset: -20%;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+      var(--color-accent) 0%,
+      transparent 70%);
+  opacity: 0.06;
+  filter: blur(40px);
+  pointer-events: none;
+  animation: avatar-glow-pulse 4s ease-in-out infinite alternate;
+}
+
+@keyframes avatar-glow-pulse {
+  0% {
+    opacity: 0.04;
+    transform: scale(0.95);
+  }
+
+  100% {
+    opacity: 0.08;
+    transform: scale(1.05);
+  }
+}
+
+/* Status dot on the card */
+.avatar-video-status {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(24, 24, 27, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.theme-light .avatar-video-status {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .avatar-video-card {
+    animation: none;
+    background: var(--color-border);
+  }
+
+  .avatar-video-glow {
+    animation: none;
+  }
+}

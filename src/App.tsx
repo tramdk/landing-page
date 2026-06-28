@@ -481,7 +481,7 @@ const Hero = () => {
   );
 };
 
-// ─── Summary Section — Liquid Glass + GSAP Reveal ───
+// ─── Summary Section — Split Layout + Floating Glass Video Card ───
 const Summary = () => {
   const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
@@ -529,35 +529,86 @@ const Summary = () => {
         }
       });
     }
+
+    // Video card — 3D slide-in from right
+    gsap.from(".avatar-video-card", {
+      xPercent: 30,
+      rotationY: -12,
+      autoAlpha: 0,
+      scale: 0.9,
+      duration: 1.2,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: ".avatar-video-card",
+        start: "top 85%",
+        toggleActions: "play none none none"
+      }
+    });
   }, { scope: ref, dependencies: [t] });
 
   return (
-    <section id="summary" ref={ref} className="py-32 px-6 md:px-12 max-w-5xl mx-auto">
+    <section id="summary" ref={ref} className="py-32 px-6 md:px-12 max-w-6xl mx-auto">
       <div
         className="summary-card p-8 md:p-12 rounded-3xl glass-panel-strong relative overflow-hidden"
         style={{ backgroundColor: 'var(--color-card)' }}
       >
-        <div>
-          <h2 className="summary-label text-xs font-semibold text-[var(--color-accent)] uppercase tracking-[0.2em] mb-8 flex items-center gap-3">
-            <Terminal size={14} strokeWidth={1.5} />
-            {t('about.title')}
-          </h2>
-          <p
-            ref={textRef}
-            className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-[var(--color-text)] max-w-[55ch]"
-            style={{ fontFamily: 'var(--font-heading)' }}
-          >
-            {t('about.bio').split('**').map((part: string, i: number) =>
-              i % 2 === 1
-                ? <span key={i} className="text-[var(--color-accent)] font-bold">{part}</span>
-                : part
-            )}
-          </p>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+          {/* Left: Bio Text (7 cols) */}
+          <div className="lg:col-span-7 order-2 lg:order-1">
+            <h2 className="summary-label text-xs font-semibold text-[var(--color-accent)] uppercase tracking-[0.2em] mb-8 flex items-center gap-3">
+              <Terminal size={14} strokeWidth={1.5} />
+              {t('about.title')}
+            </h2>
+            <p
+              ref={textRef}
+              className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-[var(--color-text)] max-w-[55ch]"
+              style={{ fontFamily: 'var(--font-heading)' }}
+            >
+              {t('about.bio').split('**').map((part: string, i: number) =>
+                i % 2 === 1
+                  ? <span key={i} className="text-[var(--color-accent)] font-bold">{part}</span>
+                  : part
+              )}
+            </p>
+          </div>
+
+          {/* Right: Floating Glass Video Card (5 cols) */}
+          <div className="lg:col-span-5 order-1 lg:order-2 flex justify-center" style={{ perspective: '800px' }}>
+            <div className="relative w-full max-w-[320px] lg:max-w-none">
+              {/* Ambient glow */}
+              <div className="avatar-video-glow" />
+
+              {/* Rotating gradient border wrapper */}
+              <div className="avatar-video-card">
+                {/* Inner glass shell */}
+                <div className="avatar-video-inner aspect-[3/4]">
+                  <video
+                    src="/avatar.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    aria-label="Avatar video of Dang Ngoc Tram"
+                  />
+
+                  {/* Status badge overlay */}
+                  <div className="avatar-video-status">
+                    <span className="relative flex h-1.5 w-1.5">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                      <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400" />
+                    </span>
+                    Available for hire
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   );
 };
+
 
 // ─── Spotlight Card Wrapper ───
 const SpotlightCard = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => {
