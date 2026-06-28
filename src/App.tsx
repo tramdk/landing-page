@@ -295,16 +295,15 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="fixed top-6 right-6 z-50 flex items-center gap-1 px-1 py-1 rounded-full glass-panel"
-         style={{ backgroundColor: 'var(--color-card)' }}>
+      style={{ backgroundColor: 'var(--color-card)' }}>
       {['en', 'vi'].map(lang => (
         <button
           key={lang}
           onClick={() => i18n.changeLanguage(lang)}
-          className={`px-3 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase transition-all duration-300 ${
-            i18n.language.startsWith(lang)
+          className={`px-3 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase transition-all duration-300 ${i18n.language.startsWith(lang)
               ? 'bg-[var(--color-accent)] text-[var(--color-bg)]'
               : 'text-[var(--color-text-muted)] hover:text-[var(--color-text)]'
-          }`}
+            }`}
         >
           {lang}
         </button>
@@ -583,7 +582,7 @@ const Summary = () => {
                 {/* Inner glass shell */}
                 <div className="avatar-video-inner aspect-[3/4]">
                   <video
-                    src="/avatar.mp4"
+                    src="/avatar1.mp4"
                     autoPlay
                     loop
                     muted
